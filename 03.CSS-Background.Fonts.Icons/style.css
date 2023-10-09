@@ -9,8 +9,8 @@ body {
   text-decoration: none;
 }
 .container {
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 1200px;
 }
 .header {
   display: flex;
@@ -20,9 +20,10 @@ body {
 .header nav ul {
   display: flex;
   gap: 0 15px;
+
 }
 .social-icons .social-icons2 {
-  justify-content: space-between;
+  display: flex;
   gap: 0 15px;
   color: blue;
 }
@@ -34,6 +35,9 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   display: flex;
+  font-style: italic;
+  width: 150vw;
+  padding: 90px 50px;
 }
 h2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -48,11 +52,35 @@ h2 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
+
 }
 #one1 {
-  background-color: black;
+  background-color: rgb(56, 54, 54);
   height: 100vh;
   background-attachment: fixed;
   display: flex;
   background-size: contain;
+  padding: 200px 400px;
+  box-sizing: border-box;
+  gap: 0 50px;
+  background-position: center;
+  
+
+
+}
+h3{
+  color: rgba(207, 204, 204, 0.897);
+}
+.one2{
+  color: rgba(187, 188, 190, 0.842);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+.one3{
+  color: aliceblue;
+  gap: 0 10px;
+}
+.one4{
+  display:flex;
+  gap: 7px 10px;
+
 }
