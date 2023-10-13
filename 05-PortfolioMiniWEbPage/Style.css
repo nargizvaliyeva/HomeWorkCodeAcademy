@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: rgb(234, 218, 197);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  header .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+  
+  .header nav ul {
+    display: flex;
+    column-gap: 25px;
+  }
+  
+  #hero-banner {
+    background-color: rgb(234, 218, 197);
+    margin-top: 80px;
+  }
+  .hero-banner {
+    display: flex;
+    align-items: center;
+    padding: 4rem 0;
+  }
+  
+  .hero-banner-info,
+  .hero-banner-image {
+    width: 50%;
+  }
+  
+  .hero-banner-image img {
+    width: 100%;
+    position: relative;
+    /* top: -20px;
+      left: -20px; */
+    bottom: 20px;
+    right: 20px;
+    border-radius: 10px;
+  }
+  .hero-banner-image .border {
+    width: 50%;
+    border: 3px solid orange;
+    border-radius: 10px;
+  }
+  .hero-banner-image {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-banner-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 25px;
+  }
+  
+  .hero-banner-name {
+    font-size: 4rem;
+  }
+  .hire-me {
+    /* padding: 10px 20px; */
+    border-radius: 5px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+  }
+  
+  .hire-me:hover {
+    border: 2px solid orange;
+    background-color: transparent;
+    color: orange;
+  }
+  
+  .social-icons {
+    display: flex;
+    column-gap: 15px;
+  }
+  
+  .line-box .line {
+    border: 2px solid orange;
+    width: 30%;
+  }
+  
+  .top-line {
+    text-decoration: overline orange;
+  }
+  
+  #about {
+    background-color: grey;
+    height: 100vh;
+  }
+  #footer {
+    background-color: rgb(234, 218, 197);
+    margin-top: 80px;
+    height: 50vh;
+    width: 0 auto;
+  }
+  .fotter{
+      background-color: rgb(87, 77, 77);
+      margin-top: 0;
+      display: flex;
+      column-gap: 20px;
+      justify-content: center;
+      top: 70px 30px;
+      height: 50vh;
+      padding: 20px 70px;
+  }
+  
+  .services{
+    text-decoration: underline orange;
+    justify-content: center;
+  }
+  .top-line1{
+    text-decoration: underline orange;
+  }
+  .line-box1 p{
+    display: flex;
+  }
+  .about-1 .web{
+      text-align: center;
+      color: black;
+      font-weight: bold;
+      position: absolute;
+      left:45%;
+     
+  }
+  .development h3{
+      text-align: center;
+      color: black;
+      font-weight: bold;
+      margin: 0 auto;
+  }
+  .development .fa-solid{
+    padding: 0 20px;
+  }
+  .development .fa-brands{
+    padding: 0 20px;
+  }
+  .development p{
+      text-align: center;
+      padding: 3px;
+     
+  }
+  .development{
+   margin-bottom: 80px;
+   margin-top: 70px;
+   background-color: antiquewhite;
+   padding: 80px,30px;
+   box-shadow: 0 0 5px;
+   height: 50%;
+   width: 30vh;
+   display: flex;
+   flex-wrap: wrap;
+  
+  }
+  .footer{
+    background-color: rgba(50, 46, 46, 0.859);
+    height: 50vh;
+    
+  }
+ .one{
+    text-align: center;
+    padding-top: 40px;
+    font-size: larger;
+  }
+  .one p{
+    text-align:center ;
+    padding-top: 30px;
+  }
+ .one a{
+    text-decoration: none;
+    color: orange;
+ }
+ .aria{
+    background-color: rgb(17, 14, 14);
+    height: 30vh;
+ }
+ .aria .social-icons{
+    text-align: center;
+    padding-top: 50px;
+    color: orange;
+ }
+ .icon1{
+    color: rgb(52, 52, 166);
+ }
+ .icon{
+  display: flex;
+    column-gap: 15px;
+    padding: 0 50px;
+    position: relative;
+    right: -650px;
+    
+ }
+ .icon1{
+    padding-top: 50px ;
+    position: relative;
+    right: -400px;
+ }
