@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    max-width:1200px;
+    margin: 0 auto;
+}
+section{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(142, 142, 156);
+}
+.right{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+section .head{
+    display: flex;
+    
+}
+.left{
+    padding: 60px;
+}
+.cheach-out h4{
+    color: green;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.cheach-out h3{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inventory{
+    background-color: green;
+    width: 40%;
+    color: azure;
+    padding: 3px;
+}
+.lorem p{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.right{
+    display: flex;
+    gap: 20px;
+}
+.right .ginger img {
+    width: 100%;
+    height: 60%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+} 
+.right .ginger p{
+    color: green;
+}
+.right .ginger h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.explare{
+    text-align: center;
+    margin-top: 40px;
+}
+.explare h4{
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.explare h3{
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20%;
+    position: relative;
+    left: 25%;
+}
+.home .tea{
+    justify-content: space-between;
+    background-color: rgb(174, 174, 186);
+}
+.tea img{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+.tea p{
+    text-align: center;
+    margin-top: 10px;
+}
+.tea h4{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tea .read-more{
+    background-color: rgb(54, 132, 54);
+    color: azure;
+    width: 35%;
+    height: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+    left: 30%;
+}
+.tea .fa-solid{
+    border-radius: 4px;
+    background-color:greenyellow;
+    color: green;
+   text-align: center;
+   position:relative;
+   left: 45%;
+
+}
+@media screen and(max-width:1200px) {
+    
+}
