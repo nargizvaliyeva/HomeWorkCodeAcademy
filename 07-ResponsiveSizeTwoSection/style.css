@@ -60,6 +60,7 @@ margin-bottom: 20px;
 .right .ginger h4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .explare{
     text-align: center;
     margin-top: 40px;
@@ -119,6 +120,33 @@ margin-bottom: 20px;
    left: 45%;
 
 }
-@media screen and(max-width:1200px) {
-    
-}
+@media screen and (max-width:767px) {
+   .home{
+    flex-direction: column;
+    padding: 0 40px;
+    position: relative;
+    margin-top: 40px;
+   }
+   .explare{
+    position: relative;
+    margin-top:800px ;
+    left: 20px;
+   }
+   .head{
+    flex-direction: column;
+    }
+    .right{
+        flex-direction: column;
+        padding: 0 50px;
+        background-color: rgb(174, 174, 186);
+    }
+    .right .ginger {
+        width: 50%;
+        height: 50%;
+        justify-content: center;
+        position: relative;
+        left: 110px;
+    }
+    }
+   
+
