@@ -1,0 +1,35 @@
+.finish {
+  background-color: $color-main;
+  .container {
+    .footer {
+      @include flex(space-between);
+      .left-1 {
+        h3 {
+          font-size: 40px;
+          color: $color-text;
+          margin: 35px;
+        }
+      }
+      .right-2 {
+        @include flex(space-between);
+        width: 50%;
+        h2 {
+          color: $color-text;
+          margin-bottom: 10px;
+          font-size: 25px;
+        }
+        nav {
+          ul {
+            li {
+              a {
+                font-size: 20px;
+                margin-top: 20px;
+                color: rgb(85, 130, 85);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -40,6 +40,10 @@
    background-color: rgb(232, 237, 237);
   
 }
+.main{
+    gap: 30px;
+
+}
 @media screen and (max-width:1023px) {
     .header .head{
         flex-direction: column;
@@ -72,10 +76,15 @@
     align-items: center;
     padding:60px ;
 }
+.left{
+overflow: hidden;
+border: 6px solid seagreen;
+
+}
 .left img{
-    width: 90%;
+    width: 100%;
     height: 10%;
-    border: 7px solid seagreen;
+
     
 }
 .right h1{
@@ -102,6 +111,8 @@
 .left img:hover{
     transition: 1s;
     transform: scale(1.1);
+
+
 }
 .learn .button:hover{
     background-color: rgb(154, 181, 156);

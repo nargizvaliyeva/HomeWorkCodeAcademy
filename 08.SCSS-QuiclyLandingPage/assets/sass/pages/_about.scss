@@ -1,0 +1,39 @@
+.important {
+  .container {
+    .one1 {
+      @include flex();
+      h1 {
+        @include flex();
+        font-size: 30px;
+      }
+    }
+    .team-members {
+      @include flex();
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 20px;
+
+      .logo {
+        h3 {
+          @include flex();
+          font-size: 25px;
+          height: 30px;
+          color: $color-main;
+          font-family: Georgia, "Times New Roman", Times, serif;
+        }
+        p {
+          @include flex();
+        }
+      }
+      .icons {
+        @include flex();
+        border: 50% solid black;
+        gap: 17px;
+        background-color: transparent;
+        border-radius: 50px;
+        border-color: $color-button;
+        padding: 30px;
+      }
+    }
+  }
+}
