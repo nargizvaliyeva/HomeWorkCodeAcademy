@@ -1,0 +1,23 @@
+#finish{
+    background-color: #FFFFFF;
+    .footer{
+        padding: 15px;
+@include flex(space-between);
+@media screen and (max-width: 767px) {
+    gap:20px ;
+    @include flex();
+    flex-direction: column;
+  }
+.left-1{
+    p{
+        font-size: 13px;
+        color: #212121BF;
+        font-family: "Poppins", sans-serif;
+    }
+}
+.right-1{
+    @include flex();
+    gap: 15px;
+}
+    }
+}

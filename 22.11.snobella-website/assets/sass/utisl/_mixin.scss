@@ -1,0 +1,5 @@
+@mixin flex($justfiy-content:center,$align-aitems:center){
+    display: flex;
+    justify-content: $justfiy-content;
+    align-items: $align-aitems;
+}

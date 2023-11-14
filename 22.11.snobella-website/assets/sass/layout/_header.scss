@@ -1,0 +1,56 @@
+#header {
+    background-color:#007878;
+    height: 10vh;
+    .header {
+      @include flex(space-between);
+      padding: 8px;
+  
+      .img {
+        @include flex();
+        @media screen and (max-width: 767px) {
+          display: none;
+        }
+        p {
+          color: $main-text-color;
+          @media screen and (max-width: 767px) {
+            display: none;
+          }
+        }
+      }
+      .icon {
+        .fa-solid {
+          @include flex();
+          display: none;
+          @media screen and (max-width: 767px) {
+            color: white;
+            display: block;
+          }
+        }
+      }
+      .nav {
+        @media screen and (max-width: 767px) {
+          display: block;
+        }
+        nav {
+          @media screen and (max-width: 767px) {
+            display: none;
+          }
+          ul {
+            @include flex(space-between);
+            gap: 20px;
+            p {
+              color: $main-text-color;
+            }
+            li {
+              a {
+                color: $main-text-color;
+                font-size: 10px;
+                font-family: "Poppins", sans-serif;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,111 @@
+#part2 {
+    background-color: #e9e4e4;
+    .part2 {
+      margin: 30px;
+      .products {
+        @include flex(space-between);
+        h1 {
+          color: #000000;
+          font-size: 30px;
+          font-family: "Rubik", sans-serif;
+        }
+        h4 {
+          color: #000000;
+          font-size: 20px;
+          font-family: "Rubik", sans-serif;
+          @media screen and (max-width: 767px) {
+            display: none;
+          }
+        }
+      }
+      .boxes {
+        @include flex();
+        @media screen and (max-width: 767px) {
+          @include flex();
+          flex-direction: column;
+          gap: 10px;
+        }
+  
+        .box {
+          @media screen and (max-width: 767px) {
+            width: 80%;
+          }
+          padding: 13px;
+          width: 30%;
+          margin: 13px;
+          background-color: #ffffff;
+  
+          .button.main {
+            @include flex(space-between);
+            @media screen and (max-width: 767px) {
+              @include flex(space-between);
+            }
+            .button1 {
+              button {
+                background-color: #43d167;
+                color: #ffffff;
+                border-radius: 5px;
+                border: none;
+                padding: 7px;
+                width: 50px;
+              }
+            }
+            .button2 {
+              button {
+                background-color: #df4244;
+                color: #ffffff;
+                width: 50px;
+                border-radius: 3px;
+                border: none;
+                padding: 5px;
+              }
+            }
+          }
+          .center {
+            @include flex(center, flex-start);
+            flex-direction: column;
+            gap: 33px;
+            @media screen and (max-width: 767px) {
+              @include flex();
+            }
+            .img {
+              @include flex();
+              img {
+                height: 150px;
+                width: 150px;
+              }
+              p {
+                color: #000000;
+                font-size: 15px;
+                font-family: "Rubik", sans-serif;
+              }
+            }
+            .button3 {
+              button {
+                background-color: transparent;
+                color: #1c1b1b;
+                border-radius: 7px;
+                border: 1px solid #212121;
+                padding: 7px;
+                width: 210px;
+              }
+            }
+            .dolar {
+              @include flex();
+              margin: 7px;
+              gap: 20px;
+              .dolar1 {
+                color: #f75145;
+                font-size: 20px;
+                font-family: "Poppins", sans-serif;
+              }
+              .dolar2 {
+                color: #363636bf;
+                font-size: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

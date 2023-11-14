@@ -1,0 +1,101 @@
+#part3 {
+    background-color: #ffffff;
+    .part3 {
+      margin: 35px;
+      .products {
+        @include flex(space-between);
+        h1 {
+          color: #000000;
+          font-size: 30px;
+          font-family: "Rubik", sans-serif;
+        }
+        h4 {
+          color: #000000;
+          font-size: 20px;
+          font-family: "Rubik", sans-serif;
+          @media screen and (max-width: 767px) {
+            display: none;
+          }
+        }
+      }
+      .boxes {
+        @include flex();
+        @media screen and (max-width: 767px) {
+          @include flex();
+          flex-direction: column;
+          gap: 13px;
+        }
+  
+        .box {
+          @media screen and (max-width: 767px) {
+            width: 80%;
+          }
+          padding: 17px;
+          width: 20%;
+          margin: 15px;
+          background-color: #f9f9f9;
+  
+          .button.main {
+            @include flex(space-between);
+            @media screen and (max-width: 767px) {
+              @include flex(space-between);
+            }
+            .button1 {
+              button {
+                background-color: #1d5e2d;
+                color: #ffffff;
+                border-radius: 5px;
+                border: none;
+                padding: 7px;
+                width: 50px;
+              }
+            }
+          }
+          .center {
+            @include flex(center, flex-start);
+            flex-direction: column;
+            gap: 37px;
+            @media screen and (max-width: 767px) {
+              @include flex();
+            }
+            .img {
+              @include flex();
+              img {
+                height: 150px;
+                width: 150px;
+              }
+              p {
+                color: #000000;
+                font-size: 16px;
+                font-family: "Rubik", sans-serif;
+              }
+            }
+            .button3 {
+              button {
+                background-color: transparent;
+                color: #212121;
+                border-radius: 7px;
+                border: 1px solid #212121;
+                padding: 5px;
+                width: 200px;
+              }
+            }
+            .dolar {
+              @include flex();
+              margin:7px;
+              gap: 15px;
+              .dolar1 {
+                color: #f75145;
+                font-size: 20px;
+                font-family: "Poppins", sans-serif;
+              }
+              .dolar2 {
+                color: #201f1fbf;
+                font-size: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

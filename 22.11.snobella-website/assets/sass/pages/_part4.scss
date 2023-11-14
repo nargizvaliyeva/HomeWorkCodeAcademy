@@ -1,0 +1,34 @@
+#part4 {
+    background-color: #f7f7f9;
+    .part4 {
+      @include flex(space-between);
+      padding: 20px;
+      @media screen and (max-width: 767px) {
+        @include flex();
+        flex-direction: column;
+        gap: 20px;
+      }
+  
+      .products {
+        color: #000000;
+        font-size: 35px;
+        font-family: "Palanquin Dark", sans-serif;
+      }
+      .lorem {
+        input {
+          background-color: #ffffff;
+          color: #aaaaaa;
+          border: none;
+          padding: 7px;
+          border-radius: 3px;
+          margin: 23px;
+          width: 400px;
+        }
+      }
+      .fa-solid {
+        position: relative;
+        right: 37px;
+        color: #1c2432bf;
+      }
+    }
+  }

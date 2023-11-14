@@ -1,0 +1,83 @@
+#part5 {
+  background-color: #f7f7f9;
+  .part5 {
+    @include flex(space-between);
+    @media screen and (max-width: 767px) {
+      @include flex();
+      flex-direction: column;
+      gap: 20px;
+    }
+    .left {
+      width: 30%;
+      @include flex(center, flex-start);
+      flex-direction: column;
+      gap: 20px;
+      @media screen and (max-width: 767px) {
+        @include flex();
+        width: 80%;
+      }
+      p {
+        color: #111010bf;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+      }
+      .import {
+        @include flex();
+        gap: 15px;
+        a {
+          text-decoration: none;
+          color: #1f1d1dbf;
+        }
+      }
+      button {
+        border: 1px solid #171717;
+        padding: 10px;
+        background-color: transparent;
+        width: 200px;
+        border-radius: 7px;
+      }
+      .icon-1 {
+        position: relative;
+        bottom: 50px;
+        left: 13px;
+        @media screen and (max-width: 767px) {
+          position: relative;
+        bottom: 50px;
+        left:-70px;
+        }
+      }
+    }
+    .right {
+      @include flex();
+      gap: 50px;
+      @media screen and (max-width: 767px) {
+        @include flex();
+        flex-direction: column;
+        gap: 25px;
+      }
+      .box {
+        @include flex();
+        nav {
+          ul {
+            @include flex(center, flex-start);
+            flex-direction: column;
+            gap: 20px;
+            li {
+              a {
+                font-family: "Poppins", sans-serif;
+                text-decoration: none;
+                color: #1e1c1cbf;
+                font-size: 20px;
+                span {
+                  color: #212121;
+                  font-size: 20px;
+                  font-family: "Rubik", sans-serif;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
